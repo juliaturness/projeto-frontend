@@ -1,0 +1,42 @@
+@import url(header.css);
+@font-face {
+    font-family: the-seasons;
+    src: url(./fontes/texto-normal-sem-negrito.otf);
+}
+*{
+    font-family: var(--p-font);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#img_logo{
+    height: 70px;
+    border-radius: 50%;
+}
+:root{
+    --titulo-font: "the-seasons";
+    --titulo-weight: 400;
+
+    --p-font: "the-seasons";
+    --p-weight: 600;
+}
+body{
+    background-color: #e5e5e5
+}
+.bt-padrao{
+    border: none;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    background-color: #464e27;
+    color: #e5e5e5;
+    border-radius: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+.bt-padrao:hover{
+    background-color: #c1c1c1;
+    color: #464e27;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
