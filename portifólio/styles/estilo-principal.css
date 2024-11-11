@@ -1,0 +1,62 @@
+@import url(header.css);
+@import url(home.css);
+@import url(pessoal.css);
+@import url(academico.css);
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+*{
+    font-family: var(--p-font);
+    width: var(--p-font);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#img_logo{
+    height: 70px;
+    border-radius: 50%;
+}
+:root{
+    --titulo-font: "Lora", serif;
+    --titulo-weight: 400px;
+
+    --p-font: "Lora", serif;
+    --p-weight: 600;
+}
+body{
+    background-color: #e5e5e5;
+}
+
+
+.bt-padrao{
+    border: none;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    background-color: #464e27;
+    color: #e5e5e5;
+    border-radius: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+.bt-padrao:hover{
+    background-color: #c1c1c1;
+    color: #464e27;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+.bt-perfil{
+    border: none;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    background-color: #c1c1c1;
+    color: #464e27;
+    border-bottom: #464e27;
+    padding: 5px;
+    cursor: pointer;
+}
+.bt-perfil:hover{
+    background-color: #464e27;
+    color: #c1c1c1;
+    transition-property: all;
+    transition-duration: 0.5s;
+}

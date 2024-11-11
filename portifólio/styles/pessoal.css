@@ -1,0 +1,47 @@
+#container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+#apresentação{
+    padding: 28px 8%;
+    width: 100%;
+    margin-top: 5%;
+}
+#apresentação h1{
+    font-size: 3rem;
+    color: #464e27;
+}
+#apresentação p{
+    font-size: 1rem;
+    color: #464e27;
+}
+#imagem{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+}
+#container2{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+#container2 h2{
+    font-size: 2rem;
+    color: #464e27;
+}
+#hobby{
+    padding: 28px 8%;
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 5%;
+}
+#curiosidades{
+    padding: 28px 8%;
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 5%;
+}

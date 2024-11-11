@@ -13,16 +13,16 @@ header{
     list-style-type:none;
     gap: 20px;
 }
-#nav_item{
+.nav_item{
     float:right;
 }
-#nav_item a{
+.nav_item a{
     color: #464e27;
     text-decoration: none;
     padding: 20px;
     display:grid;
     text-align: center;
 }
-#nav_item a:hover{
+.nav_item a:hover{
     border-bottom: 3px solid #c7c1bc;
 }
