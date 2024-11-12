@@ -5,43 +5,37 @@
 }
 #apresentação{
     padding: 28px 8%;
-    width: 100%;
     margin-top: 5%;
-}
-#apresentação h1{
-    font-size: 3rem;
-    color: #464e27;
-}
-#apresentação p{
-    font-size: 1rem;
-    color: #464e27;
 }
 #imagem{
     display: flex;
-    flex-direction: column;
-    height: 500px;
-    width: 500px;
+    padding: 28px 8%;
+    padding-left: 20px;
+    padding-bottom: 0%;
+}
+#imagem img{
+        height:450px;
+        width: 400px;
+        border-radius: 50%;
 }
 #container2{
     display: flex;
-    flex-direction: row;
-    gap: 20px;
 }
-#container2 h2{
-    font-size: 2rem;
+#container2 ul{
+    margin-top: 5px;
+    font-size: 1.rem;
     color: #464e27;
+    max-width: 600px;
 }
 #hobby{
     padding: 28px 8%;
+    padding-right: 0%;
     width: 100%;
-    flex-direction: column;
-    gap: 20px;
-    margin-top: 5%;
+    max-width: 30rem;
 }
 #curiosidades{
     padding: 28px 8%;
+    padding-left: 0%;;
     width: 100%;
-    flex-direction: column;
-    gap: 20px;
-    margin-top: 5%;
+    max-width: 30rem;
 }

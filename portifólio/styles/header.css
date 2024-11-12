@@ -8,10 +8,11 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 #nav_lista{
     list-style-type:none;
-    gap: 20px;
+    font-size: 1.2rem;
 }
 .nav_item{
     float:right;
@@ -19,7 +20,7 @@ header{
 .nav_item a{
     color: #464e27;
     text-decoration: none;
-    padding: 20px;
+    padding: 40px;
     display:grid;
     text-align: center;
 }
